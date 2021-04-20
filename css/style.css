@@ -1,2 +1,60 @@
-/* css */
-/*  */
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url(../img/fon_header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header_container {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
+nav {
+
+}
+ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  color: wheat;
+  padding: 0 15px 10px 0;
+}
+li {
+  margin-right: 60px;
+
+}
+li:last-child {
+  margin-left: auto;
+}
+h1 {
+  text-align: left;
+  color: wheat;
+  font-size: 200px;
+}
+h2 {
+  padding: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+footer {
+  background-color: #333333;
+}
+.footer_container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+.logo_footer {
+  width: 130px;
+  height: auto;
+}
+.left {
+  justify-content: space-between;
+}
+.footer_ul {
+  flex-direction: column;
+}
